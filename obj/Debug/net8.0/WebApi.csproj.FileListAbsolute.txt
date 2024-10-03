@@ -135,3 +135,4 @@ C:\Users\cima\OneDrive - GFT Technologies SE\Documents\c#-projects\WebApi\obj\De
 C:\Users\cima\OneDrive - GFT Technologies SE\Documents\c#-projects\WebApi\obj\Debug\net8.0\WebApi.pdb
 C:\Users\cima\OneDrive - GFT Technologies SE\Documents\c#-projects\WebApi\obj\Debug\net8.0\WebApi.genruntimeconfig.cache
 C:\Users\cima\OneDrive - GFT Technologies SE\Documents\c#-projects\WebApi\obj\Debug\net8.0\ref\WebApi.dll
+C:\Users\cima\OneDrive - GFT Technologies SE\Documents\c#-projects\WebApi\obj\Debug\net8.0\WebApi.sourcelink.json
