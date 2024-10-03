@@ -35,5 +35,25 @@ namespace WebApi.Controllers
 
             return Ok(userModel);
         }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<UserModel>> Update([FromBody] UserModel user, int id)
+        {
+
+            user.Id = id;
+
+            UserModel userModel = await _userRepository.UpdateUser(user, id);
+
+            return Ok(userModel);
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<UserModel>> Delete(int id)
+        {
+
+            bool statusDelete = await _userRepository.Delete(id);
+
+            return Ok(statusDelete);
+        }
     }
 }
